@@ -20,7 +20,7 @@ header {
     text-align: center;
     padding: 1rem 0;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    border: 2px solid #0056b3;
+    border: 1px solid #0056b3;
     width: 100%;
     z-index: 1000;
 }
@@ -98,19 +98,20 @@ button {
 button:hover {
     background-color: #004494;
 }
-
-.sidebar {
-    width: 250px; /* Width of the sidebar */
-    background-color: #f4f4f4;
-    border: 1px solid #0056b3;
-    padding: 20px;
-    margin-top: 60px;
-    z-index: 5;
-    position: fixed;
-    top: 110px;
-    left: calc(72% + 125px); /* 50% of the screen width plus half the width of the sidebar */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+    .sidebar {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    main {
+        width: 100%;
+    }
 }
-
 
 
 
