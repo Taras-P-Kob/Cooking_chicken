@@ -1,4 +1,3 @@
-
 /* Основні стилі */
 body {
     font-family: 'Arial', sans-serif;
@@ -7,6 +6,12 @@ body {
     line-height: 1.6;
 }
 
+header, header h1, header img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
 
 /* Заголовки */
 h1, h2, h3 {
@@ -24,7 +29,6 @@ header {
     width: 100%;
     z-index: 1000;
 }
-
 
 
 header h1 {
@@ -74,9 +78,6 @@ body.dark {
 body.dark h1, body.dark h2, body.dark h3 {
     color: #ffcc00; /* Different color for headings in dark mode */
 }
-
-/* Add more rules as needed for other elements */
-
 
 
 /* Рецепти */
@@ -186,4 +187,3 @@ body.dark #recipes {
     color: white; /* Якщо є текст у цьому розділі, змініть колір тексту на білий */
     /* Інші стилі для темної теми */
 }
-
