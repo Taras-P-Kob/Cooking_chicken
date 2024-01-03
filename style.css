@@ -102,10 +102,6 @@ button {
 button:hover {
     background-color: #004494;
 }
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 1.5em;
-    }
 
     @media (max-width: 768px) {
         header, .content {
@@ -121,9 +117,14 @@ button:hover {
     }
     main {
         width: 100%;
+        
     }
-}
 
+    main {
+        max-width: 1200px; /* або інша відповідна максимальна ширина */
+        margin: 0 auto; /* центрування на великих екранах */
+    }
+    
 
 
 .sidebar ul {
@@ -187,3 +188,23 @@ body.dark #recipes {
     color: white; /* Якщо є текст у цьому розділі, змініть колір тексту на білий */
     /* Інші стилі для темної теми */
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em; /* Зменшений розмір шрифта для маленьких екранів */
+    }
+
+    header, .content, .sidebar {
+        width: 100%; /* Забезпечуємо, що ці елементи займають всю ширину екрану на мобільних пристроях */
+    }
+
+    .content, .sidebar {
+        margin-right: 0; /* Видаляємо зайвий відступ з правого боку */
+    }
+}
+
