@@ -33,11 +33,11 @@ header h1 {
 }
 
 header:hover h1 {
-    color: #826fce; /* Зміна кольору при наведенні */
+    color: #6649dd; /* Зміна кольору при наведенні */
 }
 
 body.dark header {
-    background-color: #333; /* Темний колір фону для темної теми */
+    background-color: #181A1B; /* Темний колір фону для темної теми */
     color: white; /* Білий колір тексту */
     text-align: center;
     padding: 1rem 0;
@@ -49,6 +49,9 @@ main {
     margin: 0 auto; /* автоматичні маржини з обох боків для центрування */
 }
 
+body.dark header:hover h1 {
+    color: #e4e439; /* Змініть на бажаний колір при наведенні */
+}
 
 #theme-toggle {
     margin-top: 20px;
@@ -64,7 +67,7 @@ body.dark #theme-toggle {
 }
 
 body.dark {
-    background-color: #333; /* Dark background */
+    background-color: #1E2122; /* Dark background */
     color: white; /* Light text color for better readability on dark background */
 }
 
@@ -122,9 +125,6 @@ button:hover {
 
 
 
-
-
-
 .sidebar ul {
     list-style-type: none;
     padding: 0;
@@ -144,7 +144,7 @@ button:hover {
 }
 
 .sidebar a {
-    text-decoration: none; /* Видалення підкреслення посилань */
+    text-decoration: none;
     color: #333; /* Колір тексту посилань */
     transition: color 0.3s ease; /* Плавна зміна кольору при наведенні */
 }
@@ -152,7 +152,7 @@ button:hover {
 
 /* Стилі для темної теми */
 body.dark .sidebar {
-    background-color: #484848; /* Темний фон для sidebar в темній темі */
+    background-color: #181A1B; /* Темний фон для sidebar в темній темі */
     color: white; /* Білий колір тексту в темній темі */
     border-color: yellow;
 }
@@ -182,7 +182,7 @@ body.dark .sidebar a:hover {
 
 /* Стилі для темної теми */
 body.dark #recipes {
-    background-color: #444; /* Темніший колір фону для темної теми */
+    background-color: #181A1B; /* Темніший колір фону для темної теми */
     color: white; /* Якщо є текст у цьому розділі, змініть колір тексту на білий */
     /* Інші стилі для темної теми */
 }
