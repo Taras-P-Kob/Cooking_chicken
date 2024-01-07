@@ -1,0 +1,210 @@
+/* Основні стилі */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header, header h1, header img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #0056b3; /* Синій колір для заголовків */
+}
+
+/* Стилі для світлої теми (за замовчуванням) */
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 1px solid #0056b3;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+header h1 {
+    font-size: 2.5em; /* Більший розмір шрифта */
+    font-weight: bold; /* Жирний шрифт */
+}
+
+header:hover h1 {
+    color: #6649dd; /* Зміна кольору при наведенні */
+}
+
+body.dark header {
+    background-color: #181A1B; /* Темний колір фону для темної теми */
+    color: white; /* Білий колір тексту */
+    text-align: center;
+    padding: 1rem 0;
+    border-color: yellow;
+}
+
+main {
+    width: 80%; /* або інший відсоток/фіксована ширина */
+    margin: 0 auto; /* автоматичні маржини з обох боків для центрування */
+}
+
+body.dark header:hover h1 {
+    color: #e4e439; /* Змініть на бажаний колір при наведенні */
+}
+
+#theme-toggle {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+body.dark #theme-toggle {
+    background-color: yellow; /* Жовтий колір фону для темної теми */
+    color: black; /* Колір тексту на кнопці, якщо потрібно */
+    /* Інші стилі для кнопки в темній темі */
+}
+
+body.dark {
+    background-color: #1E2122; /* Dark background */
+    color: white; /* Light text color for better readability on dark background */
+}
+
+body.dark h1, body.dark h2, body.dark h3 {
+    color: #ffcc00; /* Different color for headings in dark mode */
+}
+
+
+/* Рецепти */
+#recipes {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Кнопки */
+button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+    @media (max-width: 768px) {
+        header, .content {
+            width: 100%;
+        }
+    }
+    
+    .sidebar {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    main {
+        width: 100%;
+        
+    }
+
+    main {
+        max-width: 1200px; /* або інша відповідна максимальна ширина */
+        margin: 0 auto; /* центрування на великих екранах */
+    }
+    
+
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 10px;
+}
+.sidebar a:hover {
+    color: #0056b3; /* Зміна кольору посилань при наведенні */
+    text-decoration: underline; /* Підкреслення посилань */
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333; /* Колір тексту посилань */
+    transition: color 0.3s ease; /* Плавна зміна кольору при наведенні */
+}
+
+
+/* Стилі для темної теми */
+body.dark .sidebar {
+    background-color: #181A1B; /* Темний фон для sidebar в темній темі */
+    color: white; /* Білий колір тексту в темній темі */
+    border-color: yellow;
+}
+
+body.dark .sidebar a {
+    color: white; /* Білий колір посилань в темній темі */
+}
+
+body.dark .sidebar ul li a {
+    color: white; /* Also change these if they are not being targeted */
+}
+
+body.dark .sidebar a:hover {
+    color: yellow; /* Жовтий колір посилань при наведенні в темній темі */
+}
+
+.content {
+    margin-right: 20%;
+    /* Інші стилі для основного контенту */
+}
+
+/* Стилі для світлої теми (за замовчуванням) */
+#recipes {
+    background-color: white; /* Білий колір фону для світлої теми */
+    /* Інші стилі для цього елемента */
+}
+
+/* Стилі для темної теми */
+body.dark #recipes {
+    background-color: #181A1B; /* Темніший колір фону для темної теми */
+    color: white; /* Якщо є текст у цьому розділі, змініть колір тексту на білий */
+    /* Інші стилі для темної теми */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em; /* Зменшений розмір шрифта для маленьких екранів */
+    }
+
+    header, .content, .sidebar {
+        width: 100%; /* Забезпечуємо, що ці елементи займають всю ширину екрану на мобільних пристроях */
+    }
+
+    .content, .sidebar {
+        margin-right: 0; /* Видаляємо зайвий відступ з правого боку */
+    }
+}
+
