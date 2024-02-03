@@ -2,6 +2,9 @@
 
 A site about how to cook chicken, in Ukrainian.
 
+Site link:
+https://taras-p-kob.github.io/Cooking_chicken/
+
 It contains recipes for cooking in different ways, and the ability to switch to a different color theme for the comfort of your eyes
 
 ![image](https://github.com/Taras-P-Kob/Cooking_chicken/assets/119957094/b4b8a8d5-dbd0-44f3-9a2b-44eec4e29539)
