@@ -8,9 +8,9 @@ It contains recipes for cooking in different ways, and the ability to switch to 
 # 1.White theme
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-![image](https://github.com/Taras-P-Kob/Cooking_chicken/assets/119957094/4965572e-8c2f-49fb-be42-477866b09dea)
+![image](https://github.com/Taras-P-Kob/Cooking_chicken/assets/119957094/72a8e4ba-0cc4-4b0c-8680-2ded6577be50)
 # 2.Dark theme
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-![image](https://github.com/Taras-P-Kob/Cooking_chicken/assets/119957094/b069a4c8-6d0e-42a3-b4e2-00579823290f)
+![image](https://github.com/Taras-P-Kob/Cooking_chicken/assets/119957094/115bb152-766a-4574-adb5-d785a8cee6a1)
 # 3.Recipe example
